@@ -1,3 +1,14 @@
+<?php
+
+if($_POST["message"]) {
+
+mail("raquelicruz94@gmail.com", "Costumer Inquiry",
+
+$_POST["insert your message here"]. "From: an@email.address");
+
+}
+
+?>
 <!DOCTYPE html>
 <html>
   <head>
