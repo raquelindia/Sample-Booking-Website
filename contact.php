@@ -35,7 +35,7 @@ $_POST["insert your message here"]. "From: an@email.address");
     <section id="contact">
     
     <p id="sendmessage">Send a message!</p>
-    <form id="contactform" action="mailto:raquelicruz94@gmail.com" method="post">
+    <form id="contactform" action="contact.php" method="post">
       <br>
       <br>
       <label for="firstname" id="firstnamelabel" class="labelclass"><b>First Name</label>
