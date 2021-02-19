@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <title>Contact</title>
@@ -23,7 +24,7 @@
     <section id="contact">
     
     <p id="sendmessage">Send a message!</p>
-    <form id="contactform" action="contact.php" method="post" enctype=”multipart/form-data”>
+    <form id="contactform" action="mailto:raquelicruz94@gmail.com" method="post">
       <br>
       <br>
       <label for="firstname" id="firstnamelabel" class="labelclass"><b>First Name</label>
