@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <title>Services</title>
     
@@ -12,9 +14,9 @@
   <navbar>
   <ul>
       
-      <li><a href="index.html" style="text-decoration:none" class="navlinks"><font color=" hotpink"><b>HOME</b></a></li>
-        <li><a href="booking" style="text-decoration:none" class="navlinks"><font color="hotpink"><b>BOOKING</b></a></li>
-          <li><a href="contact.html" style="text-decoration:none" class="navlinks"><font color="hotpink"><b>CONTACT</b></a></li>
+      <li class="navClass"><a href="index.html" style="text-decoration:none" class="navlinks"><font color=" hotpink"><b>HOME</b></a></li>
+        <li class="navClass"><a href="booking" style="text-decoration:none" class="navlinks"><font color="hotpink"><b>BOOKING</b></a></li>
+          <li class="navClass"><a href="contact.html" style="text-decoration:none" class="navlinks"><font color="hotpink"><b>CONTACT</b></a></li>
     </ul>
     </nav>
   </div>
@@ -104,7 +106,7 @@
 }
 
 li {
-  font-family: Monaco;
+  
   font-size: 25px;
   display: inline;
   padding: 80px;
@@ -142,7 +144,7 @@ h1 {
   background-color: lavenderblush;
   width: 80%;
   margin: 10%;
-  
+  font-family: 'Didact Gothic', sans-serif;
   
 }
 
@@ -160,7 +162,9 @@ footer {
   height: 40px;
   
 }
-
+.navClass {
+  font-family: Monaco;
+      }
 
 
     </style>
