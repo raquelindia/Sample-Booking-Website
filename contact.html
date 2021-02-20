@@ -61,7 +61,7 @@
               <textarea rows="10" cols="60" id="textareaid"></textarea>
               <br>
               <br>
-              <button href="contact-form-thank-you.html" type="submit" class="submitbutton"><b>Submit</button>
+              <a href="contact-form-thank-you.html"><button type="submit" class="submitbutton"><b>Submit</button></a>
               <p id="submitMessage"></p>      
       </form>
         
@@ -177,20 +177,15 @@
     </span>
   </footer>
         <script>
-          let feedback = ['Thank you for contacting us! We will be sure to get back to you shortly.'];
-function message(){
-  let submitMessageVar = feedback[0];
-  return submitMessageVar;
-} submitMessageVar();
-function display(){
-  document.getElementById('submitMessage').innerHTML = message();
-}
-        
-
-var frmvalidator = new Validator(“contactform”); 
-          frmvalidator.addValidation(“name”,”req”,”Please provide your name”); 
-          frmvalidator.addValidation(“email”,”req”,”Please provide your email”); 
-          frmvalidator.addValidation(“email”,”email”, “Please enter a valid email address”); 
+          //let feedback = ['Thank you for contacting us! We will be sure to get back to you shortly.'];
+//function message(){
+//  let submitMessageVar = feedback[0];
+ // return submitMessageVar;
+//} submitMessageVar();
+// function display(){
+ // document.getElementById('submitMessage').innerHTML = message();
+//}
+      
         </script>
     
 </html>
