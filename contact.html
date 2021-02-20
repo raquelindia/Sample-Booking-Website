@@ -61,7 +61,7 @@
               <textarea rows="10" cols="60" id="textareaid"></textarea>
               <br>
               <br>
-              <a href="contact-form-thank-you.html"><button type="submit" class="submitbutton"><b>Submit</button></a>
+              <button type="submit" class="submitbutton" id="submitbutton"><b>Submit</button>
               <p id="submitMessage"></p>      
       </form>
         
@@ -177,14 +177,9 @@
     </span>
   </footer>
         <script>
-          //let feedback = ['Thank you for contacting us! We will be sure to get back to you shortly.'];
-//function message(){
-//  let submitMessageVar = feedback[0];
- // return submitMessageVar;
-//} submitMessageVar();
-// function display(){
- // document.getElementById('submitMessage').innerHTML = message();
-//}
+           document.getElementById("submitbutton").onclick = function () {
+        location.href = "contact-form-thank-you.html";
+    };
       
         </script>
     
