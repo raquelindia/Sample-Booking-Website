@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Booking</title>
+  </head>
+  <a href="index.html"><img id="liImage" src="booking-website-logo.jpg.png" alt="Your logo here."></a>
+  <body>
+  <div id="firstDiv" style="">
+    
+  <navbar>
+  <ul>
+      <li><a href="index.html" style="text-decoration:none" class="navlinks"><font color="hotpink"><b>HOME</b></a></li>
+      <li><a href="services.html" style="text-decoration:none" class="navlinks"><font color=" hotpink"><b>SERVICES</b></a></li>
+        <li><a href="contact.html" style="text-decoration:none" class="navlinks"><font color="hotpink"><b>CONTACT</b></a></li>
+          
+    </ul>
+    </nav>
+    
+  </div>
+    <body>
+      <h1 id="bookingHeader">BOOKING</h1>
+      
+      <div id="formDiv">
+        <section>
+      <form>
+        <div class="formDivs">
+        <label for="firstName" name="firstName" class="labelClass"><b>First name</b></label>
+          <br>
+          <br>
+        <input type="text" placeholder="First name" class="textInput" required name="firstName">
+        </div>
+        <div class="formDivs">
+        <label for="lastName" name="lastName" class="labelClass"><b>Last Name</b></label>
+          <br>
+          <br>
+        <input type="text" required placeholder="Last name" class="textInput" name="lastName">
+        </div>
+        <div class="formDivs">
+          <label for="email" name="email" class="labelClass"><b>Email</b></label>
+          <br>
+          <br>
+          <input type="text" required placeholder="Email" name="email" class="textInput">
+        </div>
+        
+        <div class="formDivs">
+        <label for="service" name="service" class="labelClass"><b>Service</b></label>
+          <br>
+          <br>
+          <select>
+            <option value="serviceOne">Service #1</option>
+            <option value="serviceTwo">Service #2</option>
+            <option value="serviceThree">Service #3</option>
+          </select>
+        </div>
+       <br>
+        <div id="formDivs">
+        <label for="appointmentTime" name="appointmentTime" class="labelClass"><b>Appointment time:</b></label>
+          <br>
+          <br>
+          <select>
+            <option value="firstTime">12:00pm</option>
+            <option value="secondTime">1:00pm</option>
+            <option value="thirdTime">2:00pm</option>
+          </select>
+          <br>
+          <br>
+          <div class="formDivs">
+        <input type="submit" id="submitButton">
+          </div>
+        </div>
+      </form>
+        </section>
+      </div>
+      <style>
+      html {
+          background-color: snow;
+            
+        }
+        #firstDiv {
+          background-color: snow;
+          height : 80px;
+          display: flex;
+          
+          
+        }
+
+        li {
+          font-family: Monaco;
+          font-size: 25px;
+          display: inline;
+          padding: 5px;
+          
+        }
+
+        #liImage {
+          width: 245px;
+          height: 80px;
+          float: left;
+          
+        }
+        navbar {
+         float: right;
+        }
+footer {
+  background-color: palevioletred;
+  
+  
+  
+}
+.socialMediaIcon {
+  width: 40px;
+  height: 40px;
+  
+}
+      #sendmessage {
+        text-align: center;
+        font-family: Monaco;
+        font-size: 20px;
+      }
+body {
+          margin: 0;
+         
+        }
+#bookingHeader {
+  padding-top: 10%;
+  text-align: center;
+  font-family: Monaco;
+  
+}
+
+ #submitButton {
+         font-family: 'Didact Gothic', sans-serif;
+          background-color: hotpink;
+          border: none;
+          width: 50%;
+          height: 30px;
+          border-radius: 5px;
+          font-size: 20px;
+   margin-bottom: 50%;
+        }
+ #formDiv {
+          display: flex;
+          justify-content: center;
+          background-color: lavenderblush;
+          margin: 10%;
+          font-family: 'Didact Gothic', sans-serif;
+          font-size: 20px;
+          border-radius: 12px;
+          border: 5px solid lavenderblush;
+        }
+.formDivs {
+  padding-top: 20%;
+  float: center;
+}
+.textInput {
+          height: 30px;
+          width: 200%;
+          border-radius: 5px;
+          border: none;
+        }
+select {
+  width: 200%;
+}
+
+
+
+      </style>
+    </body>
+    <footer>
+    <span id="footerDiv">
+    <img src="facebook-emblem.jpg" class="socialMediaIcon" alt="Facebook icon">
+    <img src="1200px-Instagram_logo_2016.svg.png" class="socialMediaIcon" alt="Instagram icon">
+      <img src="124021.svg" class="socialMediaIcon" alt="Twitter Icon">
+    </span>
+  </footer>
+    </html>
